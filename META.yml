@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Module::Build version 0.4204, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,21 +17,23 @@ name: Data-Context-BEM
 provides:
   Data::Context::BEM:
     file: lib/Data/Context/BEM.pm
-    version: v0.0.1
+    version: v0.0.2
   Data::Context::BEM::Block:
     file: lib/Data/Context/BEM/Block.pm
-    version: v0.0.1
+    version: v0.0.2
   Data::Context::BEM::Block::Page:
     file: lib/Data/Context/BEM/Block/Page.pm
-    version: v0.0.1
+    version: v0.0.2
   Data::Context::BEM::Instance:
     file: lib/Data/Context/BEM/Instance.pm
-    version: v0.0.1
+    version: v0.0.2
   Data::Context::BEM::Merge:
     file: lib/Data/Context/BEM/Merge.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
-  Data::Context::Log: 0
+  Data::Context: 0.001002
+  Data::Context::Instance: 0.001002
+  Data::Context::Log: 0.001002
   File::ShareDir: 1.00
   List::MoreUtils: 0
   List::Util: 0
@@ -46,4 +48,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data::Context::BEM
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ivanwills/Data-Context-BEM.git
-version: v0.0.1
+version: v0.0.2

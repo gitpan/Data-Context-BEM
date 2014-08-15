@@ -4,7 +4,7 @@
       "Ivan Wills <ivan.wills@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4203",
+   "generated_by" : "Module::Build version 0.4204",
    "license" : [
       "perl_5"
    ],
@@ -27,7 +27,9 @@
       },
       "runtime" : {
          "requires" : {
-            "Data::Context::Log" : "0",
+            "Data::Context" : "0.001002",
+            "Data::Context::Instance" : "0.001002",
+            "Data::Context::Log" : "0.001002",
             "File::ShareDir" : "1.00",
             "List::MoreUtils" : "0",
             "List::Util" : "0",
@@ -44,23 +46,23 @@
    "provides" : {
       "Data::Context::BEM" : {
          "file" : "lib/Data/Context/BEM.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "Data::Context::BEM::Block" : {
          "file" : "lib/Data/Context/BEM/Block.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "Data::Context::BEM::Block::Page" : {
          "file" : "lib/Data/Context/BEM/Block/Page.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "Data::Context::BEM::Instance" : {
          "file" : "lib/Data/Context/BEM/Instance.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "Data::Context::BEM::Merge" : {
          "file" : "lib/Data/Context/BEM/Merge.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -75,5 +77,5 @@
          "url" : "git://github.com/ivanwills/Data-Context-BEM.git"
       }
    },
-   "version" : "v0.0.1"
+   "version" : "v0.0.2"
 }
